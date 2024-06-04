@@ -1,0 +1,22 @@
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.box-model {
+    width: 400px;
+    height: 400px;
+    background-image: url('https://s2-vogue.glbimg.com/fmOYUE1R8ZTvEzWcW7rpjTgogR0=/0x0:2457x2457/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_5dfbcf92c1a84b20a5da5024d398ff2f/internal_photos/bs/2022/k/S/UvpE21TFGq06ekLXwAqA/2015-11-09-jimmy5.jpg');
+    background-size:cover;
+    background-position: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 0 0 15px rgb(1, 1, 241),
+                0 0 0 40px rgb(34, 34, 109),
+                0 0 0 60px rgb(86, 86, 231);
+}
